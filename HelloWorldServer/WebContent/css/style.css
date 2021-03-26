@@ -1,0 +1,23 @@
+body {
+    background-image: url(https://images7.alphacoders.com/103/1035756.png);
+}
+
+#forum {
+    align-content: center;
+    margin-left: 15%;
+    margin-top: 5pc;
+    max-width: 70%;
+}
+
+.section-title {
+    margin-top: 5pc;
+    text-align: center;
+    color: white;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    color: white;
+}
+

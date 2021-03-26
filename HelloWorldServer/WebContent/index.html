@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+	<title>Bibliotech</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1 class="site-title">BiblioTECH</h1>
+  <div class="cont">
+    <div class="form sign-in">
+      <h2>Sign In</h2>
+      <form id="form-signIn" action="http://localhost:8080/HelloWorldServer/HelloWeb" method="POST">
+        <label>
+          <span>Email</span>
+          <input id="email-sign-in" type="email" name="email" required>
+        </label>
+        <label>
+          <span>Password</span>
+          <input id="password-sign-in" type="password" name="password" required>
+        </label>
+        <button id="sign-in-button" class="submit" type="button">Sign In</button>
+      </form>
+      <p class="forgot-pass">Forgot Password ?</p>
+
+      <div class="social-media">
+        <ul>
+          <li><img src="images/facebook.png"></li>
+          <li><img src="images/twitter.png"></li>
+          <li><img src="images/linkedin.png"></li>
+          <li><img src="images/instagram.png"></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="sub-cont">
+      <div class="img">
+        <div class="img-text m-up">
+          <h2>New here?</h2>
+          <p>Sign up and discover great amount of new opportunities!</p>
+        </div>
+        <div class="img-text m-in">
+          <h2>One of us?</h2>
+          <p>If you already has an account, just sign in. We've missed you!</p>
+        </div>
+        <div class="img-btn">
+          <span class="m-up">Sign Up</span>
+          <span class="m-in">Sign In</span>
+        </div>
+      </div>
+      <div class="form sign-up">
+        <h2>Sign Up</h2>
+        <form  id="form-signUp" action="http://localhost:8080/HelloWorldServer/HelloWeb" method="POST">
+          <label>
+            <span>Nome</span>
+            <input id="nome-sign-up" type="text" name="nome" required>
+          </label>
+          <label>
+            <span>Cognome</span>
+            <input id="cognome-sign-up" type="text" name="cognome" required>
+          </label>
+          <label>
+            <span>Codice Fiscale</span>
+            <input id="cf-sign-up" type="text" name="cf" required>
+          </label>
+          <label>
+            <span>Data di nascita</span>
+            <input id="data-sign-up" type="date" name="datadinascita" required>
+          </label>
+          <label>
+            <span>Email</span>
+            <input id="email-sign-up" type="email" name="email" required>
+          </label>
+          <label>
+            <span>Password</span>
+            <input id="password-sign-up" type="password" name="password" required>
+          </label>
+          <button  id="sign-up-button" type="button" class="submit">Sign Up Now</button>
+       </form>
+      </div>
+    </div>
+  </div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
